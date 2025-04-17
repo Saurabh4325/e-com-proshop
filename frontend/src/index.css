@@ -1,0 +1,90 @@
+:root {
+  /* color */
+  --theme-color: #2c2c2c;
+  --text-primaryColor: #fff;
+  --text-secondaryColor: #f0f0f0;
+  --text-plain-dark: #3e3d3d;
+  --bg-light-color: rgb(216, 216, 216);
+  --icon-hover-color: #464646;
+  --btn-hover-color: #3e3d3d;
+
+  --star-rating-color: #ffbf00;
+  --star-rating-color-hover: #e9b109;
+  --button-bg-green: green;
+
+  /* text size */
+  --text-header-size: 3rem;
+  --text-plain-size: 1.4rem;
+  --icon-size-sm: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: var(--text-plain-size);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* list */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* icons */
+.icon--reactangle {
+  padding: 3px 5px;
+  border-radius: 2px;
+  cursor: pointer;
+  /* border: 1px solid grey; */
+  /* background-color: grey; */
+}
+
+.btn--icon-black {
+  color: #000 !important;
+}
+
+.icon--reactangle:hover {
+  background-color: var(--icon-hover-color);
+}
+
+.icon {
+  margin: 0.4rem;
+}
+
+.icon--sm {
+  font-size: var(--icon-size-sm);
+}
+
+.main--container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* button */
+.btn {
+  border: 0;
+  cursor: pointer;
+}
+
+/* React Router Link */
+a {
+  color: var(--text-primaryColor);
+  text-decoration: none;
+}

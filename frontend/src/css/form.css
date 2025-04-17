@@ -1,0 +1,238 @@
+.form__container {
+  width: 100%;
+}
+.login__mainbox {
+  min-height: 70rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.login__container {
+  width: 50rem;
+  border-radius: 4px;
+  padding: 3rem;
+  border: 2px solid rgb(228, 227, 227);
+}
+
+.login__form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__form-group-item {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.form-group-item-label {
+  margin-bottom: 5px;
+  color: var(--text-plain-dark);
+}
+.form-group-item-input {
+  padding: 1rem 1rem;
+  border: 1px solid grey;
+  border-radius: 4px;
+  outline: none;
+}
+
+.form-group-item-input:focus {
+  border-color: orange;
+}
+
+.back-arrow {
+  font-size: 2rem;
+}
+
+.btn-formSubmit {
+  padding: 1rem 0.5rem;
+  font-weight: 600;
+  border: 2px solid rgb(235, 235, 235);
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.btn-formSubmit:hover {
+  border: 2px solid rgb(221, 221, 221);
+  background-color: rgb(225, 225, 225);
+}
+
+.form_newUser-link {
+  color: var(--text-plain-dark);
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+/***********  Profile style ***********/
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.orderHistory__container {
+  width: 100%;
+  /* border: 2px solid green; */
+}
+
+.orderHistory__container {
+  margin: 2rem;
+}
+
+.profile__order_item {
+  display: revert !important;
+  text-align: center;
+}
+
+.profile_image_td {
+  padding: 1rem;
+}
+
+.profile_item_image {
+  height: 100px;
+  width: 100px !important ;
+  margin-right: 1rem;
+  border-radius: 4px;
+}
+
+.btn--order_item_detail {
+  padding: 1rem;
+}
+
+.myorder_table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.myorder_table th,
+.myorder_table td {
+  border: 1px solid rgb(237, 236, 236);
+  padding: 1rem;
+}
+
+.order_item_delivery_status_icons {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.order_delivery_status_icon-false {
+  color: red;
+}
+
+.order_delivery_status_icon-true {
+  color: green;
+}
+
+@media screen and (min-width: 768px) {
+  .profile__container {
+    flex-direction: row;
+  }
+}
+
+/********************** Product List  *****************/
+.product_list_edit {
+  text-align: center;
+}
+
+.product_list_edit-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.product_list_delete {
+  border-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.btn--product-del {
+  cursor: pointer;
+}
+
+.btn--product-del-icon {
+  color: red;
+}
+
+.productlist__header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  margin-bottom: 1rem;
+}
+
+.productlist__header-title {
+  margin: 2rem 0;
+}
+
+.productlist__header-create-div {
+  /* border: 1px solid grey; */
+  display: flex;
+  align-items: center;
+}
+
+.productlist__header-create-btn {
+  /* border: none; */
+  padding: 1rem 1rem;
+  border-radius: 4px;
+  font-weight: bold;
+  color: var(--text-plain-dark);
+  cursor: pointer;
+  border: 2px solid var(--star-rating-color);
+  background-color: #ffeb6c;
+}
+
+.productlist__header-create-btn:hover {
+  background-color: var(--star-rating-color);
+}
+
+/****************************  Update Product ********************************* */
+.update_product__back {
+  width: 100%;
+  background-color: red;
+}
+
+/****************************  Update Userlist ********************************* */
+.userlist__isAdmin-icon {
+  font-size: 2.3rem;
+}
+
+/****************************  Update Userlist ********************************* */
+.searchbox {
+  flex: 0.5;
+}
+.searchbox_group {
+  display: flex;
+  flex-direction: row;
+  border-radius: 4px;
+  overflow: hidden;
+  /* border: 1px solid red; */
+  background-color: #e2e2e2;
+}
+
+.input-search {
+  border: none;
+  flex: 1;
+  background-color: transparent;
+  font-weight: 600;
+  color: #3d3d3d;
+}
+
+.btn-search {
+  border: none;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: rgb(193, 191, 191);
+  cursor: pointer;
+}
+
+.btn-search:hover {
+  background-color: rgb(178, 176, 176);
+}

@@ -1,0 +1,13 @@
+.deliver_status_box {
+  border: 2px solid rgb(250, 146, 146);
+  background-color: rgb(250, 146, 146);
+  color: rgb(194, 17, 17);
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.deliver_status_box.paid {
+  border: 2px solid rgb(139, 252, 154);
+  background-color: rgb(139, 252, 154);
+  color: rgb(35, 139, 41);
+}

@@ -1,0 +1,126 @@
+.cartItem__subcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartItems_section {
+  /* border: 1px solid; */
+  flex: 0.7;
+}
+.cart__list-item {
+  display: flex;
+  border: 1px solid rgb(232, 232, 232);
+  margin-top: 10px;
+  padding: 1rem;
+}
+
+.cartPage__item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.cartPage__item-image {
+  padding: 1rem;
+}
+.cartPage__item-image-src {
+  height: 20rem;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.cartPage__item-details-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.cartPage__item-details-brand {
+  width: fit-content;
+  margin: 10px 0;
+  padding: 0 3px;
+  border-radius: 3px;
+  color: rgb(71 71 71);
+  background-color: rgb(230 228 228);
+}
+
+.cartPage__item-details-price {
+  font-weight: bold;
+  font-size: 1.7rem;
+}
+
+.cartPage__item-details-delete {
+  /* background-color: red; */
+  justify-content: right;
+  flex: 1;
+}
+
+.btn--cartDelete {
+  float: right;
+}
+
+/* --------- cart details sections ---------- */
+.cartItems_priceDetails {
+  display: flex;
+  flex: 0.3;
+  height: fit-content;
+}
+.cartItems_priceDetails__container {
+  margin-left: 0rem;
+  margin-top: 2rem;
+  box-shadow: 0px 0px 40px #cac7c7;
+  border-radius: 4px;
+  overflow: hidden;
+  flex: 1;
+  padding-bottom: 2rem;
+}
+.cartDetail__text {
+  padding: 1rem;
+  border-bottom: 1px dashed rgb(204, 202, 202);
+  font-weight: bold;
+  text-transform: uppercase;
+  color: green;
+  font-size: large;
+}
+.cartDetail__prices {
+  padding: 0 2rem;
+}
+
+.cartDetail__prices-itemPrices {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.7rem;
+}
+
+.cartDetail__prices-itemPrices p {
+  margin: 10px 0;
+}
+
+.cartDetail__prices-itemPrices p:nth-child(2) {
+  /* border: 1px solid; */
+  margin-left: 1rem;
+}
+
+.cartDetail__prices-total {
+  border-top: 1px dashed rgb(204, 202, 202);
+  border-bottom: 1px dashed rgb(204, 202, 202);
+  display: flex;
+  justify-content: space-between;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.cart__extraPrice {
+  color: green;
+}
+
+@media screen and (min-width: 768px) {
+  .cartItem__subcontainer {
+    flex-direction: row;
+  }
+  .cartItems_priceDetails__container {
+    margin-left: 4rem;
+    margin-top: 0rem;
+  }
+}

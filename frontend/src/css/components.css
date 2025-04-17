@@ -1,0 +1,57 @@
+/* Button */
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn--round {
+  padding: 1.4rem 2rem;
+  border-radius: 50px;
+  font-size: 1.5rem;
+}
+
+.btn--round:hover {
+  background-color: var(--icon-hover-color);
+}
+
+.btn--round-icon {
+  margin-left: 10px;
+}
+
+.btn--normal {
+  padding: 1rem;
+  border-radius: 4px;
+}
+.btn--normal:hover {
+  background-color: rgb(208, 207, 207);
+}
+
+.btn--dark {
+  background-color: var(--theme-color);
+  color: var(--text-primaryColor);
+}
+
+.btn--green {
+  background-color: var(--button-bg-green);
+  color: var(--text-primaryColor);
+}
+
+.pdd__btn {
+  display: flex;
+  margin-right: 2rem;
+}
+
+.btn--mr2 {
+  margin-right: 2rem;
+}
+
+.bgcolor--orange {
+  background-color: var(--star-rating-color);
+}
+
+.bgcolor--orange:hover {
+  background-color: #e9b20c;
+}

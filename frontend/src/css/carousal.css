@@ -1,0 +1,125 @@
+.carousal_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* border: 1px solid grey; */
+  margin-top: 1rem;
+}
+
+.carousal {
+  /* height: 40rem; */
+  overflow: hidden;
+}
+
+.carousal-small {
+  height: 30rem;
+  /* width: 30rem; */
+  /* border: 1px solid green; */
+}
+
+.carousal-item-image {
+  width: 100%;
+  /* height: 100%; */
+  object-fit: contain;
+  object-position: center center;
+  flex: auto;
+}
+
+.carousal-large {
+  /* border: 1px solid salmon; */
+  display: flex;
+  flex: auto;
+  position: relative;
+  background-color: rgb(218, 216, 216);
+}
+
+.carousal-content {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: inherit;
+  padding: 0 4rem;
+  background-image: linear-gradient(to right, #fcff4726, #ff77775e, #f68c8c);
+  /* linear-gradient(to right, #00000026, #0000005e, #1e1d1d); */
+  width: 100%;
+  height: 100%;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.carousalMainImage {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .carousal_container {
+    flex-direction: row;
+    /* justify-content: space-between; */
+  }
+
+  .carousal-small {
+    width: 30rem;
+    height: auto;
+    align-self: center;
+  }
+
+  .carousal-item-image {
+    width: 100%;
+  }
+
+  .carousal-large {
+    width: 40%;
+  }
+
+  .carousalMainImage {
+    width: 100%;
+  }
+}
+
+/* arrow */
+.carousal-arrow {
+  background-color: rgb(36 35 35 / 16%);
+  position: absolute;
+  color: #fff;
+  padding: 0.6rem 0.3rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.carousal-arrow:hover {
+  background-color: #1e1d1d;
+}
+
+.carousal-arrow-left {
+  top: 50%;
+  left: 0;
+}
+
+.carousal-arrow-right {
+  top: 50%;
+  right: 0;
+}
+
+.carousal-image-dots {
+  height: 4rem;
+  width: 100%;
+  /* background-color: rgb(55, 55, 55); */
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.carousal-dot {
+  cursor: pointer;
+  height: 1rem;
+  width: 1rem;
+  margin-left: 2rem;
+  border-radius: 100%;
+  border: 2px solid rgb(255, 255, 255);
+}

@@ -1,0 +1,41 @@
+.paginationContainer {
+  padding: 1rem;
+  /* border: 1px solid grey; */
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.paginationFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination {
+  height: 2em;
+  width: 3rem;
+  /* border: 1.5px solid rgb(56, 55, 55); */
+  font-weight: 500;
+  color: rgb(56, 55, 55);
+  border-radius: 3px;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: 1.5px solid rgb(56, 55, 55);
+  outline-offset: 1px;
+}
+
+.pagination:hover {
+  /* color: orange; */
+  border-color: orange;
+  outline-color: orange;
+}
+
+.pageActive {
+  background-color: orange;
+  color: #fff;
+  border-color: orange;
+  outline: 1.5px solid orange;
+}
